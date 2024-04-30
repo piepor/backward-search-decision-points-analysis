@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="running-example-paper-pn" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>running-example-paper-pn</text>
+    </name>
+    <page id="n0">
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="trans_A">
+        <name>
+          <text>Request loan</text>
+        </name>
+      </transition>
+      <transition id="trans_C">
+        <name>
+          <text>Check</text>
+        </name>
+      </transition>
+      <transition id="trans_E">
+        <name>
+          <text>Final check</text>
+        </name>
+      </transition>
+      <transition id="trans_B">
+        <name>
+          <text>Register</text>
+        </name>
+      </transition>
+      <transition id="trans_D">
+        <name>
+          <text>Prepare documents</text>
+        </name>
+      </transition>
+      <transition id="trans_F">
+        <name>
+          <text>Authorize</text>
+        </name>
+      </transition>
+      <transition id="trans_G">
+        <name>
+          <text>Don't authorize</text>
+        </name>
+      </transition>
+      <transition id="skip_1">
+        <name>
+          <text>skip_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="aba4aa08-0556-487f-ae35-8bc3f20defcb"/>
+      </transition>
+      <transition id="skip_2">
+        <name>
+          <text>skip_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="26003147-b444-4835-9cd3-0ea4e31f81a8"/>
+      </transition>
+      <transition id="skip_3">
+        <name>
+          <text>skip_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6e6d2b84-f218-46de-a4ea-5d904f1c76c2"/>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="13e55d3a-5362-421a-82e6-17c79e74b80f"/>
+      </transition>
+      <transition id="tauSplit_1">
+        <name>
+          <text>tauSplit_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b02e8e5a-f17c-40a5-a271-ce884eb2859d"/>
+      </transition>
+      <transition id="tauJoin_1">
+        <name>
+          <text>tauJoin_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f7f034e3-328c-4376-8400-693d4482a4c5"/>
+      </transition>
+      <arc id="140627563820560" source="skip_3" target="p_6"/>
+      <arc id="140627563819024" source="source" target="trans_A"/>
+      <arc id="140627563819408" source="trans_B" target="p_2"/>
+      <arc id="140627563819792" source="tauSplit_1" target="p_4"/>
+      <arc id="140627563820176" source="p_4" target="skip_3"/>
+      <arc id="140627563820944" source="p_7" target="trans_E"/>
+      <arc id="140627563821328" source="p_8" target="skip_4"/>
+      <arc id="140627563819312" source="p_1" target="skip_1"/>
+      <arc id="140627563819696" source="tauSplit_1" target="p_3"/>
+      <arc id="140627563820080" source="p_4" target="trans_D"/>
+      <arc id="140627563820464" source="trans_D" target="p_6"/>
+      <arc id="140627563820848" source="tauJoin_1" target="p_7"/>
+      <arc id="140627563821232" source="p_8" target="trans_G"/>
+      <arc id="140627563821616" source="trans_G" target="sink"/>
+      <arc id="140627563820752" source="p_6" target="tauJoin_1"/>
+      <arc id="140627563819984" source="p_3" target="skip_2"/>
+      <arc id="140627563819216" source="p_1" target="trans_B"/>
+      <arc id="140627563819600" source="p_2" target="tauSplit_1"/>
+      <arc id="140627563820368" source="skip_2" target="p_5"/>
+      <arc id="140627563821136" source="p_8" target="trans_F"/>
+      <arc id="140627563821520" source="trans_F" target="sink"/>
+      <arc id="140627563820656" source="p_5" target="tauJoin_1"/>
+      <arc id="140627563820272" source="trans_C" target="p_5"/>
+      <arc id="140627563819120" source="trans_A" target="p_1"/>
+      <arc id="140627563819504" source="skip_1" target="p_2"/>
+      <arc id="140627563819888" source="p_3" target="trans_C"/>
+      <arc id="140627563821040" source="trans_E" target="p_8"/>
+      <arc id="140627563821424" source="skip_4" target="p_2"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

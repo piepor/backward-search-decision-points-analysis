@@ -1,0 +1,4 @@
+-----skip_3-----: 
+ amount > 18.78 && amount <= 624.0 && expense <= 6.46
+-----skip_4-----: 
+ amount <= 18.78 && amount <= 624.0 && expense <= 6.46 || amount > 624.0 && expense <= 6.46 || expense > 6.46

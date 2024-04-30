@@ -1,0 +1,4 @@
+-----trans_I-----: 
+ totalPaymentAmount <= 50.2 && paymentAmount > 44.67
+-----skip_12-----: 
+ paymentAmount <= 44.67 || totalPaymentAmount > 50.2 && paymentAmount > 44.67

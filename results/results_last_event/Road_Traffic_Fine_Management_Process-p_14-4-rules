@@ -1,0 +1,4 @@
+-----skip_10-----: 
+ paymentAmount <= 85.75
+-----trans_H-----: 
+ paymentAmount > 85.75

@@ -1,0 +1,1 @@
+"{\"doc_is_updated\": \"boolean\", \"is_present\": \"boolean\", \"loan_accepted\": \"categorical\", \"skip_everything\": \"boolean\", \"concept:name\": \"categorical\", \"amount\": \"continuous\"}"

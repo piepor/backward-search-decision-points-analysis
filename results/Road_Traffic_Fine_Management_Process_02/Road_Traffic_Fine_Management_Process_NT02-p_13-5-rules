@@ -1,0 +1,4 @@
+-----trans_G-----: 
+ totalPaymentAmount <= 0.0
+-----skip_9-----: 
+ totalPaymentAmount > 0.0

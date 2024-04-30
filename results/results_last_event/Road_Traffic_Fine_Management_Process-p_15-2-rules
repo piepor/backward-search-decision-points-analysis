@@ -1,0 +1,4 @@
+-----tauSplit_3-----: 
+ expense > 18.6 && paymentAmount <= 6.46 && totalPaymentAmount <= 41.0 || expense <= 18.6 && paymentAmount <= 6.46 && totalPaymentAmount <= 41.0 || totalPaymentAmount > 41.0
+-----skip_11-----: 
+ paymentAmount > 6.46 && totalPaymentAmount <= 41.0

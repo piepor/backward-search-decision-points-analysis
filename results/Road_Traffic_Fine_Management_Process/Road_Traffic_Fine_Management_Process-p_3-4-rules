@@ -1,0 +1,4 @@
+-----skip_4-----: 
+ amount > 32.0 && amount > 25.0 && amount <= 32.8 && amount <= 600.0 && amount > 19.68 && expense <= 6.71 || amount > 600.0 && amount > 19.68 && expense <= 6.71 || amount <= 19.68 && expense <= 6.71 || amount <= 31.3 && amount <= 32.0 && amount > 25.0 && amount <= 32.8 && amount <= 600.0 && amount > 19.68 && expense <= 6.71 || expense <= 13.5 && expense > 6.71
+-----skip_3-----: 
+ amount > 32.8 && amount <= 600.0 && amount > 19.68 && expense <= 6.71 || amount <= 25.0 && amount <= 32.8 && amount <= 600.0 && amount > 19.68 && expense <= 6.71 || expense > 13.5 && expense > 6.71 || amount > 31.3 && amount <= 32.0 && amount > 25.0 && amount <= 32.8 && amount <= 600.0 && amount > 19.68 && expense <= 6.71

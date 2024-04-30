@@ -1,0 +1,87 @@
+// Road_Traffic_Fine_Management_Process-p_5-6
+digraph "Road_Traffic_Fine_Management_Process-p_5-6" {
+	"80803747-f1b6-45a0-ac31-fa556947f18f" [label="root 
+ [split attribute: expense]"]
+	"b099d80d-8d51-4fda-bbb3-cf126c73cbac" [label="expense <= 6.46 
+ [split attribute: expense]"]
+	"80803747-f1b6-45a0-ac31-fa556947f18f" -> "b099d80d-8d51-4fda-bbb3-cf126c73cbac"
+	"d4d91e8f-0a58-4745-b999-52fc30e92826" [label="expense <= 4.96 
+ [Classes]: 
+ - skip_5: 1417.818 
+ - trans_C: 2866.9355"]
+	"b099d80d-8d51-4fda-bbb3-cf126c73cbac" -> "d4d91e8f-0a58-4745-b999-52fc30e92826"
+	"c66ab514-5e5a-4a06-9687-2428f104abef" [label="expense > 4.96 
+ [Classes]: 
+ - skip_5: 2667.0552 
+ - trans_C: 4458.8822"]
+	"b099d80d-8d51-4fda-bbb3-cf126c73cbac" -> "c66ab514-5e5a-4a06-9687-2428f104abef"
+	"d0dba47c-51eb-47ef-ad29-07a69f011af3" [label="expense > 6.46 
+ [split attribute: expense]"]
+	"80803747-f1b6-45a0-ac31-fa556947f18f" -> "d0dba47c-51eb-47ef-ad29-07a69f011af3"
+	"20fca831-e5ae-43e2-9a0b-5b0989fa48e6" [label="expense <= 13.5 
+ [split attribute: expense]"]
+	"d0dba47c-51eb-47ef-ad29-07a69f011af3" -> "20fca831-e5ae-43e2-9a0b-5b0989fa48e6"
+	"f991b368-8bd8-4ba5-a305-0275a16b9d65" [label="expense <= 6.71 
+ [Classes]: 
+ - skip_5: 4825.2512 
+ - trans_C: 6358.6632"]
+	"20fca831-e5ae-43e2-9a0b-5b0989fa48e6" -> "f991b368-8bd8-4ba5-a305-0275a16b9d65"
+	"19c04f11-f775-443c-a937-2b6dee0747fa" [label="expense > 6.71 
+ [split attribute: expense]"]
+	"20fca831-e5ae-43e2-9a0b-5b0989fa48e6" -> "19c04f11-f775-443c-a937-2b6dee0747fa"
+	"0190cfdc-49f8-45ab-ab41-35dc3b1f2a43" [label="expense <= 11.0 
+ [Classes]: 
+ - skip_5: 22306.1364 
+ - trans_C: 18190.7379"]
+	"19c04f11-f775-443c-a937-2b6dee0747fa" -> "0190cfdc-49f8-45ab-ab41-35dc3b1f2a43"
+	"a0fced4f-a7ce-4430-8b89-ccccda97db7d" [label="expense > 11.0 
+ [split attribute: expense]"]
+	"19c04f11-f775-443c-a937-2b6dee0747fa" -> "a0fced4f-a7ce-4430-8b89-ccccda97db7d"
+	"8f62f32d-c1cd-411c-ba10-3cb464a3ff30" [label="expense <= 12.91 
+ [Classes]: 
+ - skip_5: 3674.1836 
+ - trans_C: 6955.2821"]
+	"a0fced4f-a7ce-4430-8b89-ccccda97db7d" -> "8f62f32d-c1cd-411c-ba10-3cb464a3ff30"
+	"ab4b238b-1a09-4940-96d7-d1c964550211" [label="expense > 12.91 
+ [Classes]: 
+ - skip_5: 20730.826 
+ - trans_C: 20548.2735"]
+	"a0fced4f-a7ce-4430-8b89-ccccda97db7d" -> "ab4b238b-1a09-4940-96d7-d1c964550211"
+	"2709661d-3878-4b84-b51b-9387b6bd5ff0" [label="expense > 13.5 
+ [split attribute: expense]"]
+	"d0dba47c-51eb-47ef-ad29-07a69f011af3" -> "2709661d-3878-4b84-b51b-9387b6bd5ff0"
+	"9ee1fbac-b3c7-4a59-8eb6-090b0565b444" [label="expense <= 14.25 
+ [Classes]: 
+ - skip_5: 2105.3656 
+ - trans_C: 4235.3466"]
+	"2709661d-3878-4b84-b51b-9387b6bd5ff0" -> "9ee1fbac-b3c7-4a59-8eb6-090b0565b444"
+	"c38eda47-1ebc-4d4f-b8d9-43f56626b08d" [label="expense > 14.25 
+ [split attribute: expense]"]
+	"2709661d-3878-4b84-b51b-9387b6bd5ff0" -> "c38eda47-1ebc-4d4f-b8d9-43f56626b08d"
+	"0a97175e-d1f3-4d53-bff6-671d780d3308" [label="expense <= 29.8 
+ [split attribute: expense]"]
+	"c38eda47-1ebc-4d4f-b8d9-43f56626b08d" -> "0a97175e-d1f3-4d53-bff6-671d780d3308"
+	"49a3d5eb-ed04-4fbc-9f31-43b9d4d6a800" [label="expense <= 15.6 
+ [split attribute: expense]"]
+	"0a97175e-d1f3-4d53-bff6-671d780d3308" -> "49a3d5eb-ed04-4fbc-9f31-43b9d4d6a800"
+	"b6a1b170-d49e-437b-a582-1f795faa7ce1" [label="expense <= 15.0 
+ [Classes]: 
+ - skip_5: 4379.1664 
+ - trans_C: 5667.8804"]
+	"49a3d5eb-ed04-4fbc-9f31-43b9d4d6a800" -> "b6a1b170-d49e-437b-a582-1f795faa7ce1"
+	"18af9214-1cd1-46e5-a6ed-1ae84d97e857" [label="expense > 15.0 
+ [Classes]: 
+ - skip_5: 2168.3656 
+ - trans_C: 4179.3466"]
+	"49a3d5eb-ed04-4fbc-9f31-43b9d4d6a800" -> "18af9214-1cd1-46e5-a6ed-1ae84d97e857"
+	"ef799402-d562-43e2-8f70-dd2a4b9a81c5" [label="expense > 15.6 
+ [Classes]: 
+ - skip_5: 5747.9912 
+ - trans_C: 6193.1782"]
+	"0a97175e-d1f3-4d53-bff6-671d780d3308" -> "ef799402-d562-43e2-8f70-dd2a4b9a81c5"
+	"2a4647f0-782c-4a84-aebc-9914d706b2ca" [label="expense > 29.8 
+ [Classes]: 
+ - skip_5: 487.8408 
+ - trans_C: 205.4738"]
+	"c38eda47-1ebc-4d4f-b8d9-43f56626b08d" -> "2a4647f0-782c-4a84-aebc-9914d706b2ca"
+}

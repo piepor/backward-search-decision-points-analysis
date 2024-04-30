@@ -1,0 +1,4 @@
+-----tauSplit_3-----: 
+ totalPaymentAmount > 38.0 && totalPaymentAmount <= 38.01 && totalPaymentAmount <= 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 42.8 || totalPaymentAmount <= 18.78 && totalPaymentAmount <= 42.8 || totalPaymentAmount > 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 42.8 || totalPaymentAmount > 42.8
+-----skip_11-----: 
+ totalPaymentAmount > 38.01 && totalPaymentAmount <= 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 42.8 || totalPaymentAmount <= 38.0 && totalPaymentAmount <= 38.01 && totalPaymentAmount <= 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 42.8

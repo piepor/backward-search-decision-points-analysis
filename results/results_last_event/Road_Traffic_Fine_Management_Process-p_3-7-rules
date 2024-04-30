@@ -1,0 +1,4 @@
+-----skip_3-----: 
+ expense > 11.0 && expense <= 11.88 && expense > 10.0 || expense <= 10.0 || expense > 15.0 && expense <= 15.6 && expense > 13.5 && expense > 11.88 && expense > 10.0
+-----skip_4-----: 
+ expense <= 30.0 && expense > 15.6 && expense > 13.5 && expense > 11.88 && expense > 10.0 || expense <= 11.0 && expense <= 11.88 && expense > 10.0 || expense > 13.25 && expense <= 13.5 && expense > 11.88 && expense > 10.0 || expense <= 13.25 && expense <= 13.5 && expense > 11.88 && expense > 10.0 || expense > 30.0 && expense > 15.6 && expense > 13.5 && expense > 11.88 && expense > 10.0 || expense <= 15.0 && expense <= 15.6 && expense > 13.5 && expense > 11.88 && expense > 10.0

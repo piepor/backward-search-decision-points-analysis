@@ -1,0 +1,4 @@
+-----skip_10-----: 
+ impact = High || impact = Medium
+-----trans_H-----: 
+ impact = Low

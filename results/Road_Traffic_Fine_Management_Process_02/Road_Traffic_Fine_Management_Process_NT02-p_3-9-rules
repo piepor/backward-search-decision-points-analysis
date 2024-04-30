@@ -1,0 +1,4 @@
+-----skip_3-----: 
+ amount > 32.8 && amount > 19.68 && expense <= 6.71 && totalPaymentAmount <= 4.32 || expense > 13.5 && expense > 6.71 && totalPaymentAmount <= 4.32 || totalPaymentAmount > 4.32 || amount <= 25.0 && amount <= 32.8 && amount > 19.68 && expense <= 6.71 && totalPaymentAmount <= 4.32
+-----skip_4-----: 
+ amount > 25.0 && amount <= 32.8 && amount > 19.68 && expense <= 6.71 && totalPaymentAmount <= 4.32 || amount <= 19.68 && expense <= 6.71 && totalPaymentAmount <= 4.32 || expense <= 13.5 && expense > 6.71 && totalPaymentAmount <= 4.32

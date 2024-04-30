@@ -1,0 +1,4 @@
+-----trans_G-----: 
+ expense <= 10.0 && paymentAmount <= 78.0 && totalPaymentAmount > 24.0 && expense <= 11.0 || expense > 10.0 && paymentAmount <= 78.0 && totalPaymentAmount > 24.0 && expense <= 11.0 || expense <= 10.0 && totalPaymentAmount <= 24.0 && expense <= 11.0 || paymentAmount > 78.0 && totalPaymentAmount > 24.0 && expense > 11.0 || expense > 10.0 && totalPaymentAmount <= 24.0 && expense <= 11.0 || totalPaymentAmount <= 24.0 && expense > 11.0 || expense <= 10.0 && paymentAmount > 78.0 && totalPaymentAmount > 24.0 && expense <= 11.0 || expense > 10.0 && paymentAmount > 78.0 && totalPaymentAmount > 24.0 && expense <= 11.0
+-----skip_9-----: 
+ paymentAmount <= 78.0 && totalPaymentAmount > 24.0 && expense > 11.0

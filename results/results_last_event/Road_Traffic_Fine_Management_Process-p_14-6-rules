@@ -1,0 +1,4 @@
+-----trans_H-----: 
+ totalPaymentAmount <= 137.91 && paymentAmount > 85.75 && dismissal = NIL || paymentAmount <= 85.75 && dismissal = NIL || totalPaymentAmount > 137.91 && paymentAmount > 85.75 && dismissal = NIL
+-----skip_10-----: 
+ totalPaymentAmount <= 137.91 && paymentAmount > 85.75 && dismissal = # || totalPaymentAmount > 137.91 && paymentAmount > 85.75 && dismissal = # || paymentAmount <= 85.75 && dismissal = #

@@ -1,0 +1,4 @@
+-----skip_5-----: 
+ expense <= 32.0 && expense > 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0 || expense > 40.0 && totalPaymentAmount <= 18.0 || totalPaymentAmount > 18.0 || amount <= 419.0 && amount > 398.0 && expense > 6.46 && expense > 0.0 && expense <= 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0
+-----trans_C-----: 
+ amount > 419.0 && amount > 398.0 && expense > 6.46 && expense > 0.0 && expense <= 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0 || expense <= 6.46 && expense > 0.0 && expense <= 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0 || expense > 32.0 && expense > 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0 || amount <= 398.0 && expense > 6.46 && expense > 0.0 && expense <= 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0 || expense <= 0.0 && expense <= 30.3 && expense <= 40.0 && totalPaymentAmount <= 18.0

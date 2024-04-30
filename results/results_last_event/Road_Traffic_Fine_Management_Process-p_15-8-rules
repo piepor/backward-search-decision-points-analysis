@@ -1,0 +1,4 @@
+-----tauSplit_3-----: 
+ totalPaymentAmount <= 18.78 && totalPaymentAmount <= 43.18 || totalPaymentAmount > 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 43.18 || totalPaymentAmount > 43.18
+-----skip_11-----: 
+ totalPaymentAmount <= 39.0 && totalPaymentAmount > 18.78 && totalPaymentAmount <= 43.18

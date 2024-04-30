@@ -1,0 +1,70 @@
+// Road_Traffic_Fine_Management_Process-p_5-2
+digraph "Road_Traffic_Fine_Management_Process-p_5-2" {
+	"3e1eab42-f122-4420-910d-da23bc5b3bc6" [label="root 
+ [split attribute: totalPaymentAmount]"]
+	"d046cc98-50fb-4d8a-8701-581150563103" [label="totalPaymentAmount <= 18.0 
+ [split attribute: expense]"]
+	"3e1eab42-f122-4420-910d-da23bc5b3bc6" -> "d046cc98-50fb-4d8a-8701-581150563103"
+	"123273e4-32e7-4c1b-a910-6d579e31b771" [label="expense <= 40.0 
+ [split attribute: expense]"]
+	"d046cc98-50fb-4d8a-8701-581150563103" -> "123273e4-32e7-4c1b-a910-6d579e31b771"
+	"1ecc8099-ee52-476a-85c4-0b2f4e748b6f" [label="expense <= 30.3 
+ [split attribute: expense]"]
+	"123273e4-32e7-4c1b-a910-6d579e31b771" -> "1ecc8099-ee52-476a-85c4-0b2f4e748b6f"
+	"3b638f99-7db1-4a90-bf40-190b109bd1f1" [label="expense <= 0.0 
+ [Classes]: 
+ - skip_5: 0.1425 
+ - trans_C: 2859.0"]
+	"1ecc8099-ee52-476a-85c4-0b2f4e748b6f" -> "3b638f99-7db1-4a90-bf40-190b109bd1f1"
+	"254e4fd7-77b9-4650-8ad5-c83e68f814fb" [label="expense > 0.0 
+ [split attribute: expense]"]
+	"1ecc8099-ee52-476a-85c4-0b2f4e748b6f" -> "254e4fd7-77b9-4650-8ad5-c83e68f814fb"
+	"d97129c0-fbcb-4ae1-bf19-b5b3cb8629ba" [label="expense <= 6.46 
+ [Classes]: 
+ - skip_5: 284.236 
+ - trans_C: 4449.0"]
+	"254e4fd7-77b9-4650-8ad5-c83e68f814fb" -> "d97129c0-fbcb-4ae1-bf19-b5b3cb8629ba"
+	"907492ed-41f2-4315-b548-82e5b18ebb53" [label="expense > 6.46 
+ [split attribute: amount]"]
+	"254e4fd7-77b9-4650-8ad5-c83e68f814fb" -> "907492ed-41f2-4315-b548-82e5b18ebb53"
+	"50a79336-8a29-4209-88e8-db25b71d9f74" [label="amount <= 398.0 
+ [Classes]: 
+ - skip_5: 20011.6884 
+ - trans_C: 72192.0"]
+	"907492ed-41f2-4315-b548-82e5b18ebb53" -> "50a79336-8a29-4209-88e8-db25b71d9f74"
+	"7734b9f9-4972-4580-bf05-74816b95c480" [label="amount > 398.0 
+ [split attribute: amount]"]
+	"907492ed-41f2-4315-b548-82e5b18ebb53" -> "7734b9f9-4972-4580-bf05-74816b95c480"
+	"dd2a94f1-bfb4-48ba-9fe9-39f5b118df8b" [label="amount <= 419.0 
+ [Classes]: 
+ - skip_5: 54.0 
+ - trans_C: 4.0"]
+	"7734b9f9-4972-4580-bf05-74816b95c480" -> "dd2a94f1-bfb4-48ba-9fe9-39f5b118df8b"
+	"8b1902a4-3509-493b-a80d-51bc39d44f74" [label="amount > 419.0 
+ [Classes]: 
+ - skip_5: 39.9221 
+ - trans_C: 74.0"]
+	"7734b9f9-4972-4580-bf05-74816b95c480" -> "8b1902a4-3509-493b-a80d-51bc39d44f74"
+	"efc2faf9-96f2-4bf3-a52c-94e886fdaa8d" [label="expense > 30.3 
+ [split attribute: expense]"]
+	"123273e4-32e7-4c1b-a910-6d579e31b771" -> "efc2faf9-96f2-4bf3-a52c-94e886fdaa8d"
+	"ba563712-129f-47e3-8c40-1e78fb132472" [label="expense <= 32.0 
+ [Classes]: 
+ - skip_5: 88.0045"]
+	"efc2faf9-96f2-4bf3-a52c-94e886fdaa8d" -> "ba563712-129f-47e3-8c40-1e78fb132472"
+	"a0e55214-e8f8-4340-982e-798a09b8c6a7" [label="expense > 32.0 
+ [Classes]: 
+ - skip_5: 22.004 
+ - trans_C: 54.0"]
+	"efc2faf9-96f2-4bf3-a52c-94e886fdaa8d" -> "a0e55214-e8f8-4340-982e-798a09b8c6a7"
+	"42bccc0e-8bc8-41d5-a70c-7c12d437152d" [label="expense > 40.0 
+ [Classes]: 
+ - skip_5: 39.0025 
+ - trans_C: 10.0"]
+	"d046cc98-50fb-4d8a-8701-581150563103" -> "42bccc0e-8bc8-41d5-a70c-7c12d437152d"
+	"72414bb2-f07c-49b9-a1e3-56bad15de696" [label="totalPaymentAmount > 18.0 
+ [Classes]: 
+ - skip_5: 49971.0 
+ - trans_C: 218.0"]
+	"3e1eab42-f122-4420-910d-da23bc5b3bc6" -> "72414bb2-f07c-49b9-a1e3-56bad15de696"
+}

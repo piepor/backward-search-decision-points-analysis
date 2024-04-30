@@ -1,0 +1,87 @@
+// Road_Traffic_Fine_Management_Process-p_5-9
+digraph "Road_Traffic_Fine_Management_Process-p_5-9" {
+	"041b3807-b5f4-49e2-9cfd-13bfd76da2b5" [label="root 
+ [split attribute: expense]"]
+	"f5d15e90-8ece-469a-9a92-b0ac675cd44a" [label="expense <= 6.46 
+ [split attribute: expense]"]
+	"041b3807-b5f4-49e2-9cfd-13bfd76da2b5" -> "f5d15e90-8ece-469a-9a92-b0ac675cd44a"
+	"ceb742fb-840a-4f61-a44f-b36989f701e1" [label="expense <= 4.96 
+ [Classes]: 
+ - skip_5: 1417.818 
+ - trans_C: 2866.9355"]
+	"f5d15e90-8ece-469a-9a92-b0ac675cd44a" -> "ceb742fb-840a-4f61-a44f-b36989f701e1"
+	"0539c82c-6279-41f4-8ee0-c0afa819c321" [label="expense > 4.96 
+ [Classes]: 
+ - skip_5: 2667.0552 
+ - trans_C: 4458.8822"]
+	"f5d15e90-8ece-469a-9a92-b0ac675cd44a" -> "0539c82c-6279-41f4-8ee0-c0afa819c321"
+	"c328a623-8d60-4c7a-bffe-4a4e9bc58571" [label="expense > 6.46 
+ [split attribute: expense]"]
+	"041b3807-b5f4-49e2-9cfd-13bfd76da2b5" -> "c328a623-8d60-4c7a-bffe-4a4e9bc58571"
+	"1c3cd0d7-2910-44ac-a85a-cdd60971cba5" [label="expense <= 13.5 
+ [split attribute: expense]"]
+	"c328a623-8d60-4c7a-bffe-4a4e9bc58571" -> "1c3cd0d7-2910-44ac-a85a-cdd60971cba5"
+	"902f49a9-521a-4f85-9e09-92a0e94c0804" [label="expense <= 6.71 
+ [Classes]: 
+ - skip_5: 4825.2512 
+ - trans_C: 6358.6632"]
+	"1c3cd0d7-2910-44ac-a85a-cdd60971cba5" -> "902f49a9-521a-4f85-9e09-92a0e94c0804"
+	"34791d3f-1aa0-494c-a5f6-6467571000c5" [label="expense > 6.71 
+ [split attribute: expense]"]
+	"1c3cd0d7-2910-44ac-a85a-cdd60971cba5" -> "34791d3f-1aa0-494c-a5f6-6467571000c5"
+	"f771454e-e3be-4c4a-a765-60b5383c044c" [label="expense <= 11.0 
+ [Classes]: 
+ - skip_5: 22306.1364 
+ - trans_C: 18190.7379"]
+	"34791d3f-1aa0-494c-a5f6-6467571000c5" -> "f771454e-e3be-4c4a-a765-60b5383c044c"
+	"e2b2817b-cdb8-44f2-bb6f-428de2fcd01a" [label="expense > 11.0 
+ [split attribute: expense]"]
+	"34791d3f-1aa0-494c-a5f6-6467571000c5" -> "e2b2817b-cdb8-44f2-bb6f-428de2fcd01a"
+	"b23068ea-c38d-4a8b-a9f1-e2dc6c151061" [label="expense <= 12.91 
+ [Classes]: 
+ - skip_5: 3674.1836 
+ - trans_C: 6955.2821"]
+	"e2b2817b-cdb8-44f2-bb6f-428de2fcd01a" -> "b23068ea-c38d-4a8b-a9f1-e2dc6c151061"
+	"707a30f4-245c-4fbd-a649-eae0f08d2f90" [label="expense > 12.91 
+ [Classes]: 
+ - skip_5: 20730.826 
+ - trans_C: 20548.2735"]
+	"e2b2817b-cdb8-44f2-bb6f-428de2fcd01a" -> "707a30f4-245c-4fbd-a649-eae0f08d2f90"
+	"09a87b2b-bc40-44db-989f-56f9aae3cb7e" [label="expense > 13.5 
+ [split attribute: expense]"]
+	"c328a623-8d60-4c7a-bffe-4a4e9bc58571" -> "09a87b2b-bc40-44db-989f-56f9aae3cb7e"
+	"0200ec39-ee36-4092-841e-6df6f79b0e76" [label="expense <= 14.25 
+ [Classes]: 
+ - skip_5: 2105.3656 
+ - trans_C: 4235.3466"]
+	"09a87b2b-bc40-44db-989f-56f9aae3cb7e" -> "0200ec39-ee36-4092-841e-6df6f79b0e76"
+	"53c5aa99-b2f6-42a9-96fc-49512069fb81" [label="expense > 14.25 
+ [split attribute: expense]"]
+	"09a87b2b-bc40-44db-989f-56f9aae3cb7e" -> "53c5aa99-b2f6-42a9-96fc-49512069fb81"
+	"9e74bcbf-609c-452e-a140-cad2279c9964" [label="expense <= 29.8 
+ [split attribute: expense]"]
+	"53c5aa99-b2f6-42a9-96fc-49512069fb81" -> "9e74bcbf-609c-452e-a140-cad2279c9964"
+	"1409fec5-8b3c-4174-b449-171997965c85" [label="expense <= 15.6 
+ [split attribute: expense]"]
+	"9e74bcbf-609c-452e-a140-cad2279c9964" -> "1409fec5-8b3c-4174-b449-171997965c85"
+	"ff83f62f-9435-4d37-a8f4-e7a8536d895c" [label="expense <= 15.0 
+ [Classes]: 
+ - skip_5: 4379.1664 
+ - trans_C: 5667.8804"]
+	"1409fec5-8b3c-4174-b449-171997965c85" -> "ff83f62f-9435-4d37-a8f4-e7a8536d895c"
+	"b61fb11a-9c71-4d5d-b588-d59c96a93914" [label="expense > 15.0 
+ [Classes]: 
+ - skip_5: 2168.3656 
+ - trans_C: 4179.3466"]
+	"1409fec5-8b3c-4174-b449-171997965c85" -> "b61fb11a-9c71-4d5d-b588-d59c96a93914"
+	"e0e91313-6932-45a4-acb6-145c7e780215" [label="expense > 15.6 
+ [Classes]: 
+ - skip_5: 5747.9912 
+ - trans_C: 6193.1782"]
+	"9e74bcbf-609c-452e-a140-cad2279c9964" -> "e0e91313-6932-45a4-acb6-145c7e780215"
+	"f7a8e94c-38bb-40b2-9deb-fe9c76ce45a9" [label="expense > 29.8 
+ [Classes]: 
+ - skip_5: 487.8408 
+ - trans_C: 205.4738"]
+	"53c5aa99-b2f6-42a9-96fc-49512069fb81" -> "f7a8e94c-38bb-40b2-9deb-fe9c76ce45a9"
+}

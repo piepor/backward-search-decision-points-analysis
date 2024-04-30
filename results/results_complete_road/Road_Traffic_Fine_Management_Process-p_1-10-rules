@@ -1,0 +1,4 @@
+-----skip_1-----: 
+ totalPaymentAmount > 0.0
+-----trans_B-----: 
+ totalPaymentAmount <= 0.0

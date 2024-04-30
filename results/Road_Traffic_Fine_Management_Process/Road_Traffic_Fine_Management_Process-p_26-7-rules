@@ -1,0 +1,4 @@
+-----skip_13-----: 
+ expense > 13.0 && amount <= 39.35 && amount > 36.0 && totalPaymentAmount <= 18.42 || amount <= 36.0 && totalPaymentAmount <= 18.42 || totalPaymentAmount > 18.42
+-----trans_M-----: 
+ expense <= 13.0 && amount <= 39.35 && amount > 36.0 && totalPaymentAmount <= 18.42 || amount > 39.35 && amount > 36.0 && totalPaymentAmount <= 18.42

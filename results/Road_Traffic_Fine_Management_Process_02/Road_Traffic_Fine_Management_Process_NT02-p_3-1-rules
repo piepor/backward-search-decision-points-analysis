@@ -1,0 +1,4 @@
+-----skip_3-----: 
+ totalPaymentAmount > 0.0 || amount > 18.78 && amount <= 600.0 && expense <= 6.46 && totalPaymentAmount <= 0.0
+-----skip_4-----: 
+ amount <= 18.78 && amount <= 600.0 && expense <= 6.46 && totalPaymentAmount <= 0.0 || expense > 6.46 && totalPaymentAmount <= 0.0 || amount > 600.0 && expense <= 6.46 && totalPaymentAmount <= 0.0

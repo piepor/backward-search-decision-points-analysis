@@ -1,0 +1,4 @@
+-----skip_8-----: 
+ totalPaymentAmount <= 0.0 && amount > 39.35 || amount <= 39.35
+-----skip_7-----: 
+ totalPaymentAmount > 0.0 && amount > 39.35

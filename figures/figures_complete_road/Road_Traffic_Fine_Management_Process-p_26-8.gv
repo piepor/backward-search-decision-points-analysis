@@ -1,0 +1,39 @@
+// Road_Traffic_Fine_Management_Process-p_26-8
+digraph "Road_Traffic_Fine_Management_Process-p_26-8" {
+	"65a6e27b-f9d1-4770-95b0-c454cd7d7a41" [label="root 
+ [split attribute: totalPaymentAmount]"]
+	"c706f649-924f-4f39-85c3-7d395c95480b" [label="totalPaymentAmount <= 18.42 
+ [split attribute: amount]"]
+	"65a6e27b-f9d1-4770-95b0-c454cd7d7a41" -> "c706f649-924f-4f39-85c3-7d395c95480b"
+	"8af54406-2fcf-4554-8ded-f7026264d37e" [label="amount <= 36.0 
+ [Classes]: 
+ - skip_13: 14522.0 
+ - trans_M: 1.0"]
+	"c706f649-924f-4f39-85c3-7d395c95480b" -> "8af54406-2fcf-4554-8ded-f7026264d37e"
+	"6513ba78-7bad-42cf-98ca-2adbbe450325" [label="amount > 36.0 
+ [split attribute: amount]"]
+	"c706f649-924f-4f39-85c3-7d395c95480b" -> "6513ba78-7bad-42cf-98ca-2adbbe450325"
+	"9753fbbd-c3a4-434b-a5f2-e6ff7d6edc40" [label="amount <= 39.35 
+ [split attribute: expense]"]
+	"6513ba78-7bad-42cf-98ca-2adbbe450325" -> "9753fbbd-c3a4-434b-a5f2-e6ff7d6edc40"
+	"c752a304-72b1-4942-80f3-35c15b4d8196" [label="expense <= 13.0 
+ [Classes]: 
+ - skip_13: 15.0 
+ - trans_M: 1216.0"]
+	"9753fbbd-c3a4-434b-a5f2-e6ff7d6edc40" -> "c752a304-72b1-4942-80f3-35c15b4d8196"
+	"94f5598e-c618-42d5-aeb8-933234665c29" [label="expense > 13.0 
+ [Classes]: 
+ - skip_13: 2953.0 
+ - trans_M: 150.0"]
+	"9753fbbd-c3a4-434b-a5f2-e6ff7d6edc40" -> "94f5598e-c618-42d5-aeb8-933234665c29"
+	"05c75dc8-f938-4f0a-b7c6-04d7b578430d" [label="amount > 39.35 
+ [Classes]: 
+ - skip_13: 6285.0 
+ - trans_M: 55541.0"]
+	"6513ba78-7bad-42cf-98ca-2adbbe450325" -> "05c75dc8-f938-4f0a-b7c6-04d7b578430d"
+	"c34527dc-1ce6-4df3-9ad2-722ce86eaf41" [label="totalPaymentAmount > 18.42 
+ [Classes]: 
+ - skip_13: 67582.0 
+ - trans_M: 2105.0"]
+	"65a6e27b-f9d1-4770-95b0-c454cd7d7a41" -> "c34527dc-1ce6-4df3-9ad2-722ce86eaf41"
+}

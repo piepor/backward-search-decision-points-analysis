@@ -1,0 +1,87 @@
+// Road_Traffic_Fine_Management_Process-p_5-3
+digraph "Road_Traffic_Fine_Management_Process-p_5-3" {
+	"00a5ebde-b042-4e54-a7dd-149bbb2b1de3" [label="root 
+ [split attribute: expense]"]
+	"1cd531f7-f51b-4459-8e6a-13eb3d01b54d" [label="expense <= 6.46 
+ [split attribute: expense]"]
+	"00a5ebde-b042-4e54-a7dd-149bbb2b1de3" -> "1cd531f7-f51b-4459-8e6a-13eb3d01b54d"
+	"1910a5eb-cb9f-4494-91f3-fa8a25672c4a" [label="expense <= 4.96 
+ [Classes]: 
+ - skip_5: 1417.818 
+ - trans_C: 2866.9355"]
+	"1cd531f7-f51b-4459-8e6a-13eb3d01b54d" -> "1910a5eb-cb9f-4494-91f3-fa8a25672c4a"
+	"830bcecb-b845-4383-ae00-ba2d66c3b112" [label="expense > 4.96 
+ [Classes]: 
+ - skip_5: 2667.0552 
+ - trans_C: 4458.8822"]
+	"1cd531f7-f51b-4459-8e6a-13eb3d01b54d" -> "830bcecb-b845-4383-ae00-ba2d66c3b112"
+	"775efcff-49f0-4e69-9e5f-16118861c323" [label="expense > 6.46 
+ [split attribute: expense]"]
+	"00a5ebde-b042-4e54-a7dd-149bbb2b1de3" -> "775efcff-49f0-4e69-9e5f-16118861c323"
+	"836d77d2-b8a5-49a0-914e-5f77049cfb70" [label="expense <= 13.5 
+ [split attribute: expense]"]
+	"775efcff-49f0-4e69-9e5f-16118861c323" -> "836d77d2-b8a5-49a0-914e-5f77049cfb70"
+	"abe212d1-9bc0-4fa4-b3ad-1779fc08b65a" [label="expense <= 6.71 
+ [Classes]: 
+ - skip_5: 4825.2512 
+ - trans_C: 6358.6632"]
+	"836d77d2-b8a5-49a0-914e-5f77049cfb70" -> "abe212d1-9bc0-4fa4-b3ad-1779fc08b65a"
+	"fd9df501-30e9-4a67-ac1e-83d354765f4d" [label="expense > 6.71 
+ [split attribute: expense]"]
+	"836d77d2-b8a5-49a0-914e-5f77049cfb70" -> "fd9df501-30e9-4a67-ac1e-83d354765f4d"
+	"fa4f749f-a224-43d8-bafb-78925bdcd60b" [label="expense <= 11.0 
+ [Classes]: 
+ - skip_5: 22306.1364 
+ - trans_C: 18190.7379"]
+	"fd9df501-30e9-4a67-ac1e-83d354765f4d" -> "fa4f749f-a224-43d8-bafb-78925bdcd60b"
+	"e1496842-5735-49ce-ab7e-f1f10aa163c5" [label="expense > 11.0 
+ [split attribute: expense]"]
+	"fd9df501-30e9-4a67-ac1e-83d354765f4d" -> "e1496842-5735-49ce-ab7e-f1f10aa163c5"
+	"c079829c-cbae-4b27-b532-eaa024a401f6" [label="expense <= 12.91 
+ [Classes]: 
+ - skip_5: 3674.1836 
+ - trans_C: 6955.2821"]
+	"e1496842-5735-49ce-ab7e-f1f10aa163c5" -> "c079829c-cbae-4b27-b532-eaa024a401f6"
+	"f896c753-e150-4954-9d64-691170457e61" [label="expense > 12.91 
+ [Classes]: 
+ - skip_5: 20730.826 
+ - trans_C: 20548.2735"]
+	"e1496842-5735-49ce-ab7e-f1f10aa163c5" -> "f896c753-e150-4954-9d64-691170457e61"
+	"09d17aee-d886-4d6a-a91c-a1f5ad1a6018" [label="expense > 13.5 
+ [split attribute: expense]"]
+	"775efcff-49f0-4e69-9e5f-16118861c323" -> "09d17aee-d886-4d6a-a91c-a1f5ad1a6018"
+	"ef5a1a5b-c14c-4b9c-a05e-aefcb7f67c48" [label="expense <= 14.25 
+ [Classes]: 
+ - skip_5: 2105.3656 
+ - trans_C: 4235.3466"]
+	"09d17aee-d886-4d6a-a91c-a1f5ad1a6018" -> "ef5a1a5b-c14c-4b9c-a05e-aefcb7f67c48"
+	"ec9c0169-84dc-41dd-bd15-d69870febe79" [label="expense > 14.25 
+ [split attribute: expense]"]
+	"09d17aee-d886-4d6a-a91c-a1f5ad1a6018" -> "ec9c0169-84dc-41dd-bd15-d69870febe79"
+	"78adcf77-d16e-43ca-abd8-b587fdbf74e7" [label="expense <= 29.8 
+ [split attribute: expense]"]
+	"ec9c0169-84dc-41dd-bd15-d69870febe79" -> "78adcf77-d16e-43ca-abd8-b587fdbf74e7"
+	"9b73f030-2aa1-4865-815c-4806fc02c0e0" [label="expense <= 15.6 
+ [split attribute: expense]"]
+	"78adcf77-d16e-43ca-abd8-b587fdbf74e7" -> "9b73f030-2aa1-4865-815c-4806fc02c0e0"
+	"45d49541-4095-48cf-b290-25b11fb494e9" [label="expense <= 15.0 
+ [Classes]: 
+ - skip_5: 4379.1664 
+ - trans_C: 5667.8804"]
+	"9b73f030-2aa1-4865-815c-4806fc02c0e0" -> "45d49541-4095-48cf-b290-25b11fb494e9"
+	"707b4627-665e-454a-8385-0665d4a33f02" [label="expense > 15.0 
+ [Classes]: 
+ - skip_5: 2168.3656 
+ - trans_C: 4179.3466"]
+	"9b73f030-2aa1-4865-815c-4806fc02c0e0" -> "707b4627-665e-454a-8385-0665d4a33f02"
+	"42797d35-e722-46a1-a0fe-89f42611fbac" [label="expense > 15.6 
+ [Classes]: 
+ - skip_5: 5747.9912 
+ - trans_C: 6193.1782"]
+	"78adcf77-d16e-43ca-abd8-b587fdbf74e7" -> "42797d35-e722-46a1-a0fe-89f42611fbac"
+	"97419850-dc67-4ade-b3eb-142405b36479" [label="expense > 29.8 
+ [Classes]: 
+ - skip_5: 487.8408 
+ - trans_C: 205.4738"]
+	"ec9c0169-84dc-41dd-bd15-d69870febe79" -> "97419850-dc67-4ade-b3eb-142405b36479"
+}

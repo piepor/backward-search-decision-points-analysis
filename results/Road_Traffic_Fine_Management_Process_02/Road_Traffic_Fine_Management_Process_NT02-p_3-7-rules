@@ -1,0 +1,4 @@
+-----skip_3-----: 
+ amount <= 143.0 && points > 0.0 && amount > 18.78 && amount <= 279.0 && expense <= 6.46 && totalPaymentAmount <= 5.5 || totalPaymentAmount > 5.5 || points <= 0.0 && amount > 18.78 && amount <= 279.0 && expense <= 6.46 && totalPaymentAmount <= 5.5
+-----skip_4-----: 
+ amount > 279.0 && expense <= 6.46 && totalPaymentAmount <= 5.5 || amount <= 18.78 && amount <= 279.0 && expense <= 6.46 && totalPaymentAmount <= 5.5 || amount > 143.0 && points > 0.0 && amount > 18.78 && amount <= 279.0 && expense <= 6.46 && totalPaymentAmount <= 5.5 || expense > 6.46 && totalPaymentAmount <= 5.5

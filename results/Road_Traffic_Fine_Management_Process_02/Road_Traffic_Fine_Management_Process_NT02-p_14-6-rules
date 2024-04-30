@@ -1,0 +1,4 @@
+-----trans_H-----: 
+ amount > 38.0 && totalPaymentAmount <= 0.0 || expense > 21.16 && amount <= 38.0 && totalPaymentAmount <= 0.0
+-----skip_10-----: 
+ totalPaymentAmount > 0.0 || expense <= 21.16 && amount <= 38.0 && totalPaymentAmount <= 0.0
